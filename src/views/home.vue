@@ -4,14 +4,14 @@
             <el-carousel arrow="never" height="880px">
                 <el-carousel-item class="banner-item">
                     <div class="banner-img">
-                        <img v-lazyload="'/static/img/home/banner-1.png'">    
+                        <img src="/static/img/home/banner-1.png">    
                     </div> 
                 </el-carousel-item>
             </el-carousel>
         </div>
         <div class="header-icon-con">
             <div class="layout">
-                <img v-lazyload="'/static/img/home/logo.png'">
+                <img src="/static/img/home/logo.png">
                 <searchBar style="float:right;margin-top:20px;"></searchBar>
             </div>
         </div>
