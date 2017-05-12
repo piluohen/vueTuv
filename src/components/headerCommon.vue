@@ -1,7 +1,7 @@
 <template>
     <div class="header-common">
         <div class="layout">
-            <a href="/"><img src="../assets/img/header-logo.png"></a>
+            <a href="/"><img v-lazyload="'/static/img/home/header-logo.png'"></a>
             <searchBar style="float:right;margin-top:20px;"></searchBar>
         </div>
     </div>

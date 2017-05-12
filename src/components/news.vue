@@ -5,7 +5,7 @@
                 <div class="news-box-left fn-left">
                     <a target="_blank" :href="item.url" class="news-item fn-clear" v-for="item in news">
                         <div class="news-item-left fn-left">
-                            <img :src="item.img" alt="">
+                            <img v-lazyload="item.img" alt="">
                             <div class="news-item-left-ceng"></div>
                         </div>
                         <div class="news-item-desc fn-right">
@@ -19,7 +19,7 @@
                     <el-carousel arrow="never" trigger="click" height="280px">
                         <el-carousel-item v-for="item in news">
                             <a :href="item.url" target="_blank">
-                            <img :src="item.img" alt="">
+                            <img v-lazyload="item.img" alt="">
                             </a>
                         </el-carousel-item>
                     </el-carousel>

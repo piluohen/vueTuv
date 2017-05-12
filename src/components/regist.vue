@@ -5,7 +5,7 @@
             <ul class="validaten-list fn-clear">
                 <li v-for="item in regists">
                     <div class="vali-item">
-                        <img :src="item.img" alt="">
+                        <img v-lazyload="item.img" alt="">
                         <div class="home-white-bg"></div>
                     </div>
                     <div class="regist-desc">

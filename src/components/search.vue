@@ -2,7 +2,7 @@
     <div class="search-con">
         <div class="input-con">
             <div class="input-sel">
-                Products<img style="margin-left:5px;display:inline-block;vertical-align:middle;" src="../assets/img/search-arrow.png">
+                Products<img style="margin-left:5px;display:inline-block;vertical-align:middle;" src="/static/img/home/search-arrow.png">
             </div>
             <input class="input-c" type="text" placeholder="Please enter keywords">
         </div>

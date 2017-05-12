@@ -4,14 +4,14 @@
             <el-carousel arrow="never" height="880px">
                 <el-carousel-item class="banner-item">
                     <div class="banner-img">
-                        <img src="../assets/img/banner-1.png">    
+                        <img v-lazyload="'/static/img/home/banner-1.png'">    
                     </div> 
                 </el-carousel-item>
             </el-carousel>
         </div>
         <div class="header-icon-con">
             <div class="layout">
-                <img src="../assets/img/logo.png">
+                <img v-lazyload="'/static/img/home/logo.png'">
                 <searchBar style="float:right;margin-top:20px;"></searchBar>
             </div>
         </div>
@@ -36,11 +36,11 @@
         <div class="aff-container">
             <div class="layout">
                 <div class="aff-header">
-                    <img src="../assets/img/aff-icon.png">
+                    <img v-lazyload="'/static/img/home/aff-icon.png'">
                     <span class="aff-ht">Affliate Locations</span>
                 </div>
                 <div class="aff-con">
-                    <img src="../assets/img/map.png">
+                    <img v-lazyload="'/static/img/home/map.png'">
                     <div class="loc-con">
                         <!--div class="loc-sel">
                             <el-select class="sel-1" placeholder="Please select">
@@ -161,64 +161,64 @@
                 </div>
                 <div class="tn-con-2">
                     <a target="_blank" href="http://shop800428.jumoreglobal.com/">
-                    <img class="mt1 mr1 mb1" src="../assets/img/logo-1.png">
+                    <img class="mt1 mr1 mb1" v-lazyload="'/static/img/home/logo-1.png'">
                     </a>
                     <a target="_blank" href="http://shop800429.jumoreglobal.com/">
-                    <img class="mt1 mr1 mb1" src="../assets/img/logo-2.png">
+                    <img class="mt1 mr1 mb1" v-lazyload="'/static/img/home/logo-2.png'">
                     </a>
                     <a target="_blank" href="http://shop800430.jumoreglobal.com/">
-                    <img class="mt1 mr1 mb1" src="../assets/img/logo-3.png">
+                    <img class="mt1 mr1 mb1" v-lazyload="'/static/img/home/logo-3.png'">
                     </a>
                     <a target="_blank" href="http://shop800431.jumoreglobal.com/">
-                    <img class="mt1 mb1" src="../assets/img/logo-4.png">
+                    <img class="mt1 mb1" v-lazyload="'/static/img/home/logo-4.png'">
                     </a>
                     <a target="_blank" href="http://shop800432.jumoreglobal.com/">
-                    <img class="mr1 mb1" src="../assets/img/logo-5.png">
+                    <img class="mr1 mb1" v-lazyload="'/static/img/home/logo-5.png'">
                     </a>
                     <a target="_blank" href="http://shop800433.jumoreglobal.com/">
-                    <img class="mr1 mb1" src="../assets/img/logo-6.png">
+                    <img class="mr1 mb1" v-lazyload="'/static/img/home/logo-6.png'">
                     </a>
                     <a target="_blank" href="http://shop800434.jumoreglobal.com/">
-                    <img class="mr1 mb1" src="../assets/img/logo-7.png">
+                    <img class="mr1 mb1" v-lazyload="'/static/img/home/logo-7.png'">
                     </a>
                     <a  href="http://shop800435.jumoreglobal.com/">
-                    <img class="mb1" src="../assets/img/logo-8.png">
+                    <img class="mb1" v-lazyload="'/static/img/home/logo-8.png'">
                     </a>
                     <a target="_blank" href="http://shop800436.jumoreglobal.com/">
-                    <img class="mr1 mb1" src="../assets/img/logo-9.png">
+                    <img class="mr1 mb1" v-lazyload="'/static/img/home/logo-9.png'">
                     </a>
                     <a target="_blank" href="http://shop800437.jumoreglobal.com/">
-                    <img class="mr1 mb1" src="../assets/img/logo-10.png">
+                    <img class="mr1 mb1" v-lazyload="'/static/img/home/logo-10.png'">
                     </a>
                     <a target="_blank" href="http://shop800438.jumoreglobal.com/">
-                    <img class="mr1 mb1" src="../assets/img/logo-11.png">
+                    <img class="mr1 mb1" v-lazyload="'/static/img/home/logo-11.png'">
                     </a>
                     <a target="_blank" href="http://shop800439.jumoreglobal.com/">
-                    <img class="mb1" src="../assets/img/logo-12.png">
+                    <img class="mb1" v-lazyload="'/static/img/home/logo-12.png'">
                     </a>
                     <a target="_blank" href="http://shop800440.jumoreglobal.com/">
-                    <img class="mr1 mb1" src="../assets/img/logo-13.png">
+                    <img class="mr1 mb1" v-lazyload="'/static/img/home/logo-13.png'">
                     </a>
                     <a target="_blank" href="http://shop800441.jumoreglobal.com/">
-                    <img class="mr1 mb1" src="../assets/img/logo-14.png">
+                    <img class="mr1 mb1" v-lazyload="'/static/img/home/logo-14.png'">
                     </a>
                     <a target="_blank" href="http://shop800447.jumoreglobal.com/">
-                    <img class="mr1 mb1" src="../assets/img/logo-15.jpg">
+                    <img class="mr1 mb1" v-lazyload="'/static/img/home/logo-15.jpg'">
                     </a>
                     <a target="_blank" href="http://shop800442.jumoreglobal.com/">
-                    <img class="mb1" src="../assets/img/logo-16.png">
+                    <img class="mb1" v-lazyload="'/static/img/home/logo-16.png'">
                     </a>
                     <a target="_blank" href="http://shop800443.jumoreglobal.com/">
-                    <img class="mr1 mb1" src="../assets/img/logo-17.png">
+                    <img class="mr1 mb1" v-lazyload="'/static/img/home/logo-17.png'">
                     </a>
                     <a target="_blank" href="http://shop800444.jumoreglobal.com/">
-                    <img class="mr1 mb1" src="../assets/img/logo-18.png">
+                    <img class="mr1 mb1" v-lazyload="'/static/img/home/logo-18.png'">
                     </a>
                     <a target="_blank" href="http://shop800445.jumoreglobal.com/">
-                    <img class="mr1 mb1" src="../assets/img/logo-19.png">
+                    <img class="mr1 mb1" v-lazyload="'/static/img/home/logo-19.png'">
                     </a>
                     <a target="_blank" href="http://shop800446.jumoreglobal.com/">
-                    <img class="mb1" src="../assets/img/logo-20.png">
+                    <img class="mb1" v-lazyload="'/static/img/home/logo-20.png'">
                     </a>
                 </div>
             </div>
@@ -226,7 +226,7 @@
         <div class="consul-container">
             <div class="layout">
                 <div class="consul-con">
-                    <img src="../assets/img/consul-img.png">
+                    <img v-lazyload="'/static/img/home/consul-img.png'">
                     <div class="consul-over">
                         <div class="consul-t1">Please leave a message for any enquiry or question about TUV-NORD</div>
                         <div class="consul-t2">TUV NORD IN CHINA.</div>
@@ -241,7 +241,7 @@
         <valtidatenBar></valtidatenBar>
         <newsBar></newsBar>
         <a class="to-top" href="javascript:scroll(0,0)">
-            <img src="../assets/img/top.png">
+            <img v-lazyload="'/static/img/home/top.png'">
         </a>
     </div>
 </template>

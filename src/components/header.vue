@@ -12,7 +12,7 @@
             <ul class="ul-nav">
                 <li><a href="/" class="pr15">Home</a></li>
                 <li class="header-li-hover">
-                    <a class="pl15 pr15 bd header-li-a">Links<img src="../assets/img/header-arrow.png"></a>
+                    <a class="pl15 pr15 bd header-li-a">Links<img src="/static/img/home/header-arrow.png"></a>
                     <div class="dh-list">
                         <div class="dh-item" style="border-left:none;">
                             <div class="dh-header">Commodities</div>
