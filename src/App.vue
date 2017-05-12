@@ -2,7 +2,7 @@
   <div id="app">
     <HeaderBar></HeaderBar>
     <router-view></router-view>
-    <FooterBar></FooterBar>
+    <FooterBar v-if="showFooter"></FooterBar>
   </div>
 </template>
 
