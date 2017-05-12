@@ -1,0 +1,40 @@
+{
+    "active": [
+        {
+            "id": "1",
+            "img": "/static/img/active/active1.png",
+            "one":"DecatusAcademy",
+            "oneDesc":"Successfully Negotiate",
+            "two":"Seminar Period",
+            "twoDesc":"19th June to 20th June 2017",
+            "three":"Time",
+            "threeDesc":"9 am to 17 pm",
+            "forth":"Location",
+            "forthDesc":"NH Hamburg Altona",
+            "five":"Ticket channel",
+            "fiveDesc":"www.decatus.de",
+            "title":"Successfully Negotiate",
+            "location":"NH Hamburg Altona",
+            "time":"19th June to 20th June 2017",
+            "desc": "<img src=\"/static/img/active/active1.png\" /><br /><br />Seminar Period:  19th June  to 20th June  2017<br />Time: 9 am to 17 pm<br />Location: NH Hamburg Altona<br />Ticket channel: www.decatus.de<br /><br />Strategies for your goals<br /><br />Find your personal negotiating style: In the seminar, you will learn how to build personal relationships with your conversation partners verbally and non-verbally, to assess your conversational partners and to adapt to them optimally. Learn how to prepare yourself optimally for negotiations, manage conversations and handle difficult situations with confidence.<br /><br />You train the skills learned in practice simulations. This makes it easier to internalize it and can easily transfer it into your daily work routine."
+        },
+        {
+            "id": "2",
+            "img": "/static/img/active/active2.png",
+            "one":"Event Name",
+            "oneDesc":"Qualifizierungsprogramm zum Vertriebsleiter",
+            "two":"Organizer",
+            "twoDesc":"TUV NORD GROUP",
+            "three":"Date",
+            "threeDesc":"5th September to 7th September",
+            "forth":"Place",
+            "forthDesc":"Crowne Plaza Hamburg",
+            "five":"Ticket Channel",
+            "fiveDesc":"www.decatus.de",
+            "title":"Qualifizierungsprogramm zum Vertriebsleiter",
+            "location":"Crowne Plaza Hamburg",
+            "time":"5th September to 7th September",
+            "desc": "<img src=\"/static/img/active/active2.png\" /><br /><br />Event Name : Qualifizierungsprogramm zum Vertriebsleiter<br />Organizer: TUV NORD GROUP<br />Date: 5th September to 7th September<br />Place : Crowne Plaza Hamburg<br />Ticket Channel: www.decatus.de<br /><br /><br />Details:<br /><br />This certified qualification program provides you with the tools to guide a sales team in a targeted manner, to develop and implement precise sales strategies and to successfully manage complex sales processes. Organizing and motivating your sales team will take a long time, with an exemplary role for you. You will learn the methods, tools and strategic competencies to build up a powerful sales team that will win projects at the decision-making levels of the Buying Center and will also be able to achieve ambitious sales targets together with you.<br /><br />You will learn best practice sales strategies and tools that will help you improve the efficiency of your sales processes and maximize the potential of the market. This training will prepare you for the typical tasks and sales situation in small and medium-sized businesses, so that you meet the special requirements and challenges of the sales manager and achieve your business, sales and personal goals."
+        }
+    ]
+}
