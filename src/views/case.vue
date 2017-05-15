@@ -46,6 +46,8 @@
 </template>
 
 <script>
+import { mapMutations } from 'vuex'
+
 import caseJson from 'mock/case.json'
 import headerCommon from 'components/headerCommon'
 import caseAsideBar from 'components/caseAside'
@@ -85,8 +87,16 @@ export default {
             return this.nextCase ? '/case/' + this.nextCase.id : 'javascript:;'
         }
     },
-    created(){
-        
+    methods: {
+        ...mapMutations([
+            'setFooterShow'
+        ])
+    },
+    created() {
+        this.setFooterShow({isShow: true})
+    },
+    destroyed() {
+        this.setFooterShow({isShow: false})
     }
 }
 </script>

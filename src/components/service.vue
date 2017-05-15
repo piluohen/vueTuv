@@ -26,7 +26,7 @@ export default {
                 {"img":"/static/img/service/Pic_MAIN SERVICE IN  CHINA 3.png","title":"Components Safety","url":"http://www.jumorecertification.com/shop/9/detail/108"},
                 {"img":"/static/img/service/Pic_MAIN SERVICE IN  CHINA 4.png","title":"Climate Change","url":"http://www.jumorecertification.com/shop/9/detail/149"},
                 {"img":"/static/img/service/Pic_MAIN SERVICE IN  CHINA 5.png","title":"Renewable Energy","url":"http://www.jumorecertification.com/shop/9/detail/150"},
-                {"img":"/static/img/service/Pic_MAIN SERVICE IN  CHINA 6.png","title":"Mobility-E Maker","url":"http://www.jumorecertification.com/shop/9/detail/107"},
+                {"img":"/static/img/service/Pic_MAIN SERVICE IN  CHINA 6.png","title":"E-Mark","url":"http://www.jumorecertification.com/shop/9/detail/107"},
                 {"img":"/static/img/service/1.jpg","title":"Railway and Industrial Services","url":"http://www.jumorecertification.com/shop/9/detail/151"},
                 {"img":"/static/img/service/2.jpg","title":"Training","url":"http://www.jumorecertification.com/shop/9/detail/152"},
             ]

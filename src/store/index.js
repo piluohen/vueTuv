@@ -45,11 +45,23 @@ const Site = {
     }
 }
 
+const FooterBar = {
+    state: {
+        isShow: false
+    },
+    mutations: {
+        setFooterShow(state, payload) {
+            state.isShow = payload.isShow
+        }
+    }
+}
+
 // 全局store
 const store = new Vuex.Store({
     modules: {
         User: User,
-        Site: Site
+        Site: Site,
+        FooterBar: FooterBar
     }
 })
 

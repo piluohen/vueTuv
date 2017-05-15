@@ -1,12 +1,17 @@
 <template>
-    <div class="footer">
+    <div v-if="isShow" class="footer">
         <div class="layout">© TÜV NORD &  JUMORE. 2017. All rights reserved.</div>
     </div>
 </template>
 
 <script>
+import { mapState } from 'vuex'
 export default {
-    
+    computed: {
+        ...mapState({
+            isShow: state => state.FooterBar.isShow
+        })
+    }
 }
 </script>
 

@@ -52,6 +52,8 @@
 </template>
 
 <script>
+import { mapMutations } from 'vuex'
+
 import activeJson from 'mock/active.json'
 import headerCommon from 'components/headerCommon'
 import activeAsideBar from 'components/activeAside'
@@ -86,8 +88,16 @@ export default {
             return this.nextActive ? '/active/' + this.nextActive.id : 'javascript:;'
         }
     },
-    created(){
-        
+    methods: {
+        ...mapMutations([
+            'setFooterShow'
+        ])
+    },
+    created() {
+        this.setFooterShow({isShow: true})
+    },
+    destroyed() {
+        this.setFooterShow({isShow: false})
     }
 }
 </script>

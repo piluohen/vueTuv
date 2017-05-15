@@ -37,7 +37,7 @@
             <div class="layout">
                 <div class="aff-header">
                     <img v-lazyload="'/static/img/home/aff-icon.png'">
-                    <span class="aff-ht">Affliate Locations</span>
+                    <span class="aff-ht">AFFILIATE LOCATIONS</span>
                 </div>
                 <div class="aff-con">
                     <img v-lazyload="'/static/img/home/map.png'">
@@ -90,7 +90,7 @@
         </div>
         <div class="customer-container">
             <div class="layout">
-                <div class="customer-header">Customers Presentation</div>
+                <div class="customer-header">CUSTOMERS PRESENTATION</div>
                 <div class="customer-con">
                     <span class="customer-item mr30 mb30">
                         <div class="ci-h">TÜV NORD and DB...</div>
@@ -181,7 +181,7 @@
                     <a target="_blank" href="http://shop800434.jumoreglobal.com/">
                     <img class="mr1 mb1" v-lazyload="'/static/img/home/logo-7.png'">
                     </a>
-                    <a  href="http://shop800435.jumoreglobal.com/">
+                    <a target="_blank" href="http://shop800435.jumoreglobal.com/">
                     <img class="mb1" v-lazyload="'/static/img/home/logo-8.png'">
                     </a>
                     <a target="_blank" href="http://shop800436.jumoreglobal.com/">
@@ -247,6 +247,8 @@
 </template>
 
 <script>
+import { mapMutations } from 'vuex'
+
 import newsBar from 'components/news'
 import searchBar from 'components/search'
 import valtidatenBar from 'components/valtidaten'
@@ -279,11 +281,20 @@ export default {
     }else{
         this.goTopShow = false
     }
-   }
+   },
+   ...mapMutations([
+       'setFooterShow'
+   ])
   },
   mounted() {
     //window.addEventListener('scroll', this.menu)
   },
+  created() {
+    this.setFooterShow({isShow: true})
+  },
+  destroyed() {
+      this.setFooterShow({isShow: false})
+  }
 }
 </script>
 
